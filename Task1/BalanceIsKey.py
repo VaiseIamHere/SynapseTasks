@@ -87,6 +87,7 @@ run()
 
 """
 <--------------- Output --------------->
+(Handles error :)
 
 Look Record for: Gaurang
 Record for Gaurang:
