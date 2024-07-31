@@ -2,12 +2,9 @@ from itertools import combinations
 
 NO_OF_ARTIST = 10
 
-Kevin = {"Halsey", "Taylor Swift", "Mitski", "Joji", "Shawn Mendes", "Sabrina Carpenter","Nicky Minaj", "Conan Gray", 
-         "One Direction","Justin Bieber"}
-Stuart = {"Kendrick Lamar", "Steve Lacy", "Tyler the Creator", "Joji", "TheWeeknd", "Coldplay", "Kanye West", "Travis Scott", 
-          "Frank Ocean", "Brent Faiyaz"}
-Bob = {"Conan Gray", "Joji", "Dove Cameron", "Mitski", "Arctic Monkeys", "Steve Lacy", "Kendrick Lamar", "Isabel LaRosa", 
-       "Shawn Mendes", "Coldplay", "Lauv"}
+Kevin = {"Halsey", "Taylor Swift", "Mitski", "Joji", "Shawn Mendes", "Sabrina Carpenter","Nicky Minaj", "Conan Gray", "One Direction","Justin Bieber"}
+Stuart = {"Kendrick Lamar", "Steve Lacy", "Tyler the Creator", "Joji", "TheWeeknd", "Coldplay", "Kanye West", "Travis Scott", "Frank Ocean", "Brent Faiyaz"}
+Bob = {"Conan Gray", "Joji", "Dove Cameron", "Mitski", "Arctic Monkeys", "Steve Lacy", "Kendrick Lamar", "Isabel LaRosa", "Shawn Mendes", "Coldplay", "Lauv"}
 Edith = {"Metallica", "Billie Eilish" "TheWeeknd" "Mitski", "NF", "Conan Gray", "Kendrick Lamar", "Nicky Minaj", "Kanye West", "Coldplay"}
 
 def compatible_pairs(L):
