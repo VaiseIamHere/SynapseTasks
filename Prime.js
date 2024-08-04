@@ -29,7 +29,7 @@ function prime_list(a, b){
     return arr_list;
 }
 
-console.log("Required Output:\n",prime_list(0,12))
+console.log(prime_list(0,12))
 
 /*
 <----------------- Output ----------------->
