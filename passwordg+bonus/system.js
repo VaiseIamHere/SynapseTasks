@@ -1,3 +1,4 @@
+// Function to do necessary process
 const passwordCreater = (obj) => {
     passwordSet = "abcdefghijklmnopqrstuvwxyz"
     const checkNumbers = obj.numbers
@@ -63,7 +64,7 @@ const prime_list = (a, b) => {
     return arr_list;
 }
 
-
+// Handler Functions
 const sendPassword = (req, res) => {
     obj = req.body
     password = passwordCreater(obj)
@@ -78,6 +79,8 @@ const task1 = (req, res) => {
     obj = {response: list}
     res.status(200).json(obj)
 }
+
+// Exporting
 module.exports = {
     sendPassword,
     task1
